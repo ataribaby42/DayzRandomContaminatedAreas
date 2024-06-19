@@ -93,3 +93,13 @@ Druganov Airfield E area have 100% chance thus will be always active, Swamps shi
    }
   },
 ```
+
+### CREDITS
+<ul>
+  <li>Code by ataribaby.</li>
+</ul>
+
+### LICENSE
+Mod is open source and you are free to modify, repack and publish. If you fix or enhance it please consider push it to me for intergration into official version.
+
+Steam Workshop link: https://steamcommunity.com/sharedfiles/filedetails/?id=3270415997
