@@ -1,0 +1,2 @@
+# DayzRandomContaminatedAreas
+Dayz RandomContaminatedAreas
