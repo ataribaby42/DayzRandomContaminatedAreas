@@ -3,8 +3,8 @@ Random Contaminated Areas mod adds possibility to define random chance for spawn
 
 Added two new paramaters into cfgeffectarea.json:
 
-Chance - float 0.0 to 1.0 meaning is percentage of occurrence (0.5 is 50%)
-ChanceGroupName - string group name for grouping area that is formed form multiple areas, chance is evaluated only once as whole for group.
+<p>**Chance** - float 0.0 to 1.0 meaning is percentage of occurrence (0.5 is 50%)</p>
+<p>**ChanceGroupName** - string group name for grouping area that is formed form multiple areas, chance is evaluated only once as whole for group.</p>
 
 If Chance is omitted it defaults to 0 - always no area active.
 If ChanceGroupName is omitted it defaults to "" - no group defined.
@@ -12,10 +12,10 @@ You need to have Chance defined just with first occurrence of group, all other g
 
 Mod is server side mod, no need to add it for client. Use just -servermod=@abRandomContaminatedAreas; on your server.
 
-Example:
-
+### Example:
 Druganov Airfield E area have 100% chance thus will be always active, Swamps shipwreck 1a and Swamps shipwreck 1b are grouped into Swamps shipwreck 1 and have 50% chance to be active as whole group.
 
+```
 {  "AreaName": "Druganov Airfield E", 
    "Type": "SR_RadiationContaminatedArea_Static", 
    "TriggerType": "SR_RadiationContaminatedTrigger",
@@ -89,3 +89,4 @@ Druganov Airfield E area have 100% chance thus will be always active, Swamps shi
     "PPERequesterType": "PPERequester_RadiationContaminated"
    }
   },
+```
