@@ -13,6 +13,8 @@ If Chance is omitted it defaults to 0 - always no area active.
 If ChanceGroupName is omitted it defaults to "" - no group defined.
 You need to have Chance defined just with first occurrence of group, all other group members inherits that chance and dice roll.
 
+Areas activation is evaluated at start of server during cfgeffectarea.json load.
+
 Mod is server side mod, no need to add it for client. Use just -servermod=@abRandomContaminatedAreas; on your server.
 
 ### Example:
