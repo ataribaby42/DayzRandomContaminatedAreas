@@ -7,7 +7,7 @@ Added two new paramaters into cfgeffectarea.json:
 Float 0.0 to 1.0 meaning is percentage of occurrence (0.5 is 50%)
 
 ### ChanceGroupName
-Dtring group name for grouping area that is formed form multiple areas, chance is evaluated only once as whole for group.
+String group name for grouping area that is formed form multiple areas, chance is evaluated only once as whole for group.
 
 If Chance is omitted it defaults to 0 - always no area active.
 If ChanceGroupName is omitted it defaults to "" - no group defined.
